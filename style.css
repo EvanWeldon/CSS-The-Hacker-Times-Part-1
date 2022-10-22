@@ -24,3 +24,15 @@ h1 {
 h5 {
     color: red;
 }
+
+.newspaper-container {
+    width: 700px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.more-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid: gap 20px;
+}
